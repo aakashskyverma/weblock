@@ -1,0 +1,39 @@
+
+body {
+            background-image: url('../img/mainbg.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color:rgba(0, 0, 0, 0.8);
+        }
+        .container-custom {
+            /* Adding some transparency */
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 50px;
+            background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity to make it darker */
+        }
+        
+/* styles.css */
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white; /* Adjust color as needed */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: lightgray; /* Adjust hover color as needed */
+}
+
+/* Additional styling to make sure the text is readable on any background */
+.navbar-light .navbar-brand {
+    color: white; /* Adjust color as needed */
+}
+
+.navbar-light .navbar-brand:hover {
+    color: lightgray; /* Adjust hover color as needed */
+}
+        
