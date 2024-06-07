@@ -53,8 +53,8 @@ public class ShareServlet extends HttpServlet {
     }
 
     private void sendEmailWithAttachment(String recipientEmail, byte[] fileBytes, String fileName) throws MessagingException {
-        final String username = "aakashverma1262@gmail.com";
-        final String password = "hepg rcdk zjmm tepf";
+        final String username = "weblock1262@gmail.com";
+        final String password = "yhly ecmd mogb qmmv";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
